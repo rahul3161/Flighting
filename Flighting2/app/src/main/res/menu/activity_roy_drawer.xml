@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/homeq"
+        android:title="Home"
+        android:textSize="20dp"
+        />
+    <item
+        android:id="@+id/enquir"
+        android:icon="@drawable/enquiryp"
+        android:title="Enquiry" />
+    <item
+        android:id="@+id/baggages"
+        android:icon="@drawable/bag"
+        android:title="Baggage" />
+    <item
+        android:id="@+id/extra"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="XYZ" />
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/user"
+        android:title="User Settings" />
+</group>
+</menu>

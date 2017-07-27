@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/background1">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background1"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:background="#13b586"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/login" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="25dp"
+                android:text="Login"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+                />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/background1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_weight="0.16">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/airport" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="#f3f3f3"
+                android:hint="Email ID"
+                android:id="@+id/emailid"
+                android:paddingLeft="5dp"
+                android:textColor="#161616" />
+
+
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Password"
+                android:id="@+id/editTextPassword"
+               android:inputType="textPassword"
+                android:textColor="#161616"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Register Here"
+                    android:textColor="#000000"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn"
+                android:onClick="goHome"
+                android:text="submit"
+                android:textColor="#fff"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
